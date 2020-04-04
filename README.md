@@ -13,10 +13,14 @@ foo@bar:~$ git clone https://github.com/luiguip/house-prices-statistics.git
 Para facilitar a comunicação e o trabalho em conjunto proponho cada um utilizar um notebook para fazermos uma análise inicial das variáveis e a limpeza delas.
 Se todos utilizarem a mesma branch pode gerar conflitos então o ideal é utilizarmos cada um uma branch, e eu fico responsável de fazer o merge delas onde a master vai ser a branch com trabalho de todos.
 
+```console
+foo@bar:~$git branch <nome-da-branch>
+```
+
 Depois de importar selecionar a branch a ser utilizada.
 
 ```console
-foo@bar:~$ git checkout -b <nome-da-branch>
+foo@bar:~$ git checkout <nome-da-branch>
 ```
 
 Uma vez por dia vamos atualizar a branch master, para adicionar as mudanças ao commit.
