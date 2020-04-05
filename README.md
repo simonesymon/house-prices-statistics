@@ -9,6 +9,11 @@ Para importar o repositório utilizar o seguinte comando:
 ```console
 foo@bar:~$ git clone https://github.com/luiguip/house-prices-statistics.git
 ```
+Depois de clonar o repositório todos os comando devem ser executados dentro da pasta do repositorio.
+
+```console
+foo@bar~$ cd house-prices-statistics
+```
 
 Para facilitar a comunicação e o trabalho em conjunto proponho cada um utilizar um notebook para fazermos uma análise inicial das variáveis e a limpeza delas.
 Se todos utilizarem a mesma branch pode gerar conflitos então o ideal é utilizarmos cada um uma branch, e eu fico responsável de fazer o merge delas onde a master vai ser a branch com trabalho de todos.
